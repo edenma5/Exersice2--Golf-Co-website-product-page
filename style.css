@@ -399,7 +399,7 @@ main {
     }
 
     .img1Container .image1 {
-        background-image: url(Images/033A9930-Edit-copy.jpg1_.jpg);
+        background-image: url(./Images/033A9930-Edit-copy.jpg1_.jpg);
     }
 
     .img2Container {
@@ -408,7 +408,7 @@ main {
     }
 
     .img2Container .image2 {
-        background-image: url(Images/7290109524474_1.jpg);
+        background-image: url(./Images/7290109524474_1.jpg);
     }
 
     .img3Container {
@@ -417,7 +417,7 @@ main {
     }
 
     .img3Container .image3 {
-        background-image: url(images/7290109524474_2.jpg);
+        background-image: url(./images/7290109524474_2.jpg);
     }
 
     .img4Container {
@@ -426,7 +426,7 @@ main {
     }
 
     .img4Container .image4 {
-        background-image: url(images/7290109524474_3.jpg);
+        background-image: url(./images/7290109524474_3.jpg);
     }
 
     .img5Container {
@@ -435,7 +435,7 @@ main {
     }
 
     .img5Container .image5 {
-        background-image: url(images/033A9930-Edit-copy.jpg1_.jpg);
+        background-image: url(./images/033A9930-Edit-copy.jpg1_.jpg);
     }
 
     .img1Container .image1:hover,
