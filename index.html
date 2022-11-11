@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Front-End Exercise2</title>
+</head>
+
+<body>
+    <main>
+        <i class="fa-solid fa-heart fullHeart"></i>
+        <i class="fa-regular fa-heart emptyHeart"></i>
+        <i class="fa-solid fa-share-nodes"></i>
+        <div class="imgContainerMobile">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="images/pic1.webp" alt="pic1"></div>
+                    <div class="swiper-slide"><img src="images/pic2.webp" alt="pic2"></div>
+                    <div class="swiper-slide"><img src="images/pic3.webp" alt="pic3"></div>
+                    <div class="swiper-slide"><img src="images/pic4.webp" alt="pic4"></div>
+                    <div class="swiper-slide"><img src="images/pic5.webp" alt="pic5"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+        <div class="imgContainerDesktop">
+            <div class="img1Container">
+                <div class="image1"></div>
+            </div>
+            <div class="img2Container">
+                <div class="image2"></div>
+            </div>
+            <div class="img3Container">
+                <div class="image3"></div>
+            </div>
+            <div class="img4Container">
+                <div class="image4"></div>
+            </div>
+            <div class="img5Container">
+                <div class="image5"></div>
+            </div>
+        </div>
+        <div class="bigContainer">
+            <div class="smallDetails">
+                <h6 class="sd collection">Look of the month</h6>
+                <h5 class="sd nameProd">סט מצעי כותנה סאטן מודפסים מרגו</h5>
+                <h6 class="sd mainPrice">719.00 ₪ - 499.00 ₪</h6>
+            </div>
+            <div class="options">
+                <div class="sizeOptions">
+                    <div class="size" id="1">
+                        <span class="nameType">סט יחיד 90X200</span>
+                        <span class="price p1">499.00 ₪</span>
+                    </div>
+                    <div class="size" id="2">
+                        <span class="nameType">סט מיטה וחצי 120X200</span>
+                        <span class="price p2">519.00 ₪</span>
+                    </div>
+                    <div class="size" id="3">
+                        <span class="nameType">סט זוגי 160X200</span>
+                        <span class="price p3">649.00 ₪</span>
+                    </div>
+                    <div class="size" id="4">
+                        <span class="nameType">סט זוגי 180X200</span>
+                        <span class="price p4">679.00 ₪</span>
+                    </div>
+                    <div class="size" id="5">
+                        <span class="nameType">סט זוגי 200X200</span>
+                        <span class="price p5">689.00 ₪</span>
+                    </div>
+                    <div class="size" id="6">
+                        <span class="nameType">סט זוגי כפול 160X200</span>
+                        <span class="price p6">719.00 ₪</span>
+                    </div>
+                </div>
+                <div class="quantityField">
+                    <button class="sign minusQty" disabled>➖</button>
+                    <span class="number">1</span>
+                    <button class="sign plusQty">➕</button>
+                </div>
+                <button class="addToCart">הוספה לסל</button>
+                <span class="shippingMessage">בקנייה מעל 249 ₪ - משלוח חינם (עד 5 ימי עסקים)</span>
+            </div>
+            <div class="moreDetailsContainer">
+                <div class="aboutTheProd">על הפריט</div>
+                <div class="shippingAndreturn">משלוחים והחזרות</div>
+            </div>
+            <div class="lines">
+                <div class="line"></div>
+                <div class="boldLine"></div>
+            </div>
+            <div class="shippingAndreturnInfo disable">
+                <p>בקנייה מעל 299 ש״ח- משלוח חינם.</p><br>
+                <p>שליח עד הבית | דואר רשום:
+                    בקנייה עד 149 ₪ - 19 ₪
+                    בקניה מעל 149 ₪ עד 299 ₪- 9 ₪
+                    בקניה מ-299 ₪ - הטבת שליחות חינם
+                </p><br>
+                <p>החלפות והחזרות
+                    החלפות והחזרות בקלי קלות וללא עלות: עד 14 יום מיום קבלת הפריט, בחנויות רשת Golf&Co.
+                    החזרות והחלפות יתאפשרו בתנאי שהמוצרים יוחזרו ללא פגם ומבלי שנעשה בהם שימוש, באריזה סגורה ובצירוף
+                    התווית המקורית.
+                </p>
+            </div>
+            <div class="aboutTheProdInfo">
+                <p>סט מצעי כותנה איכותיים ונעימים באריגת סאטן יוקרתית בדפוס ריאקטיב. בד הסאטן מתאפיין בברק הייחודי שלו
+                    ובמגעו הנעים על הגוף.</p>
+                <p><strong>הרכב החומר:</strong><br>
+                    100%כותנה סאטן
+                </p>
+                <p><strong>מידות:</strong><br>
+                    סט יחיד 90X200: ציפית 50X70, סדין 90X200X28, ציפה 150X200
+                    <br>
+                    סט מיטה וחצי 120X200: ציפית 50X70, סדין 120X200X28, ציפה 150X200
+                    <br>
+                    סט זוגי 160X200: שתי ציפיות 50X70, סדין 160X200X30, ציפה 200X220
+                    <br>
+                    סט זוגי 180X200: שתי ציפיות 50X70, סדין 180X200X30, ציפה 200X220
+                    <br>
+                    סט זוגי 200X200: שתי ציפיות 50X70, סדין 200X200X30, ציפה 200X220
+                    <br>
+                    סט זוגי כפול 160X200: שתי ציפיות 50X70, סדין 160X200X30, שתי ציפות 150X200
+                </p>
+                <p><strong>צפיפות:</strong><br>
+                    220 חוטים לאינץ</p>
+                <p><strong>הוראות טיפול:</strong><br>
+                    כביסה עם גוון צבע דומה
+                    לכבס בנפרד בטמפ’ של עד 40 מעלות
+                    כביסה ללא חומרי הלבנה
+                    ניתן לגהץ בחום נמוך
+                    אין לבצע ניקוי יבש</p>
+                <p><strong>מספר דגם:</strong><br>
+                    56680416700
+                </p>
+                <p>ארץ ייצור: טורקיה</p>
+                <p>המוצרים המוצעים באתר מיובאים ע"י/מיובאים/מיוצרים עבור: קבוצת גולף א.ק. בע"מ (ח.צ. 510289564), רחוב
+                    המלאכה 5, נתניה</p>
+            </div>
+            <div class="golfClubCard">
+                <h5>חברי מועדון קבוצת גולף?</h5>
+                <p>תוכלו להשתמש ולצבור נקודות גם באתר!</p>
+                <img src="Images/golfcocard.png" alt="golf Club Card">
+            </div>
+        </div>
+    </main>
+
+    <script src="https://kit.fontawesome.com/ad7520866f.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="javaScript.js"></script>
+</body>
+
+</html>
