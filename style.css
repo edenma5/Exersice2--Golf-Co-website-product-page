@@ -399,7 +399,7 @@ main {
     }
 
     .img1Container .image1 {
-        background-image: url(Images/pic1.webp);
+        background-image: url(Images/pic1.jpg);
     }
 
     .img2Container {
@@ -408,7 +408,7 @@ main {
     }
 
     .img2Container .image2 {
-        background-image: url(Images/pic2.webp);
+        background-image: url(Images/pic2.jpg);
     }
 
     .img3Container {
@@ -417,7 +417,7 @@ main {
     }
 
     .img3Container .image3 {
-        background-image: url(images/pic3.webp);
+        background-image: url(images/pic3.jpg);
     }
 
     .img4Container {
@@ -435,7 +435,7 @@ main {
     }
 
     .img5Container .image5 {
-        background-image: url(images/pic5.webp);
+        background-image: url(images/pic5.jpg);
     }
 
     .img1Container .image1:hover,
