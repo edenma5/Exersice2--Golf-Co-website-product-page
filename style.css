@@ -387,6 +387,7 @@ main {
     .img5Container .image5 {
         height: 100%;
         width: 100%;
+        object-fit: cover;
         background-position: center;
         background-size: cover;
         transition: .7s;
@@ -398,45 +399,45 @@ main {
         grid-column: 1/3;
     }
 
-    .img1Container .image1 {
+    /* .img1Container .image1 {
         background-image: url(./Images/033A9930-Edit-copy.jpg1_.jpg);
-    }
+    } */
 
     .img2Container {
         grid-row: 2/3;
         grid-column: 1/2;
     }
 
-    .img2Container .image2 {
+    /* .img2Container .image2 {
         background-image: url(./Images/7290109524474_1.jpg);
-    }
+    } */
 
     .img3Container {
         grid-row: 2/3;
         grid-column: 2/3;
     }
 
-    .img3Container .image3 {
+    /* .img3Container .image3 {
         background-image: url(./images/7290109524474_2.jpg);
-    }
+    } */
 
     .img4Container {
         grid-row: 3/4;
         grid-column: 1/3;
     }
 
-    .img4Container .image4 {
+    /* .img4Container .image4 {
         background-image: url(./images/7290109524474_3.jpg);
-    }
+    } */
 
     .img5Container {
         grid-row: 4/5;
         grid-column: 1/2;
     }
 
-    .img5Container .image5 {
+    /* .img5Container .image5 {
         background-image: url(./images/033A9930-Edit-copy.jpg1_.jpg);
-    }
+    } */
 
     .img1Container .image1:hover,
     .img2Container .image2:hover,
